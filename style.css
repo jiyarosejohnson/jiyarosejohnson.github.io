@@ -437,10 +437,7 @@ p {
    ========================= */
 
 .site-footer {
-    border-top: 1px solid #dddddd;
-    margin-top: 60px;
-    padding: 25px 20px 25px 0;
-    text-align: center;
+    text-align: right;
     color: #777777;
     font-size: 14px;
 }
