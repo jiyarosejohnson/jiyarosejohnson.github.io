@@ -1,1 +1,36 @@
+.site-header {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
 
+.header-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 25px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-title {
+    font-size: 22px;
+    font-weight: 500;
+    color: #28759c;
+    text-decoration: none;
+}
+
+.navigation {
+    display: flex;
+    gap: 28px;
+}
+
+.navigation a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navigation a:hover {
+    color: #28759c;
+}
