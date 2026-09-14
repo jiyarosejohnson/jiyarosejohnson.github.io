@@ -216,37 +216,44 @@ p {
    RESEARCH
    ========================= */
 
-.research-subsection {
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    column-gap: 30px;
-
+.research-intro {
     max-width: 1000px;
-    margin-bottom: 45px;
-}
-
-.research-label {
-    font-size: 17px;
-    color: #222222;
-    padding-top: 3px;
-}
-
-.research-content {
-    max-width: 850px;
-}
-
-.research-content p {
-    margin-top: 0;
+    margin: 0 auto 45px auto;
+    font-size: 16px;
+    line-height: 1.7;
 }
 
 
 /* =========================
-   PUBLICATIONS
+   RESEARCH SUBSECTIONS
+   ========================= */
+
+.research-subsection {
+    max-width: 900px;
+    margin: 55px auto;
+}
+
+.research-label {
+    font-size: 25px;
+    font-weight: 400;
+    color: #28759c;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.research-content {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+
+/* =========================
+   PUBLICATIONS & PREPRINTS
    ========================= */
 
 .publication-list {
     margin: 0;
-    padding-left: 25px;
+    padding-left: 30px;
 }
 
 .publication-list li {
@@ -260,15 +267,6 @@ p {
     color: #333333;
 }
 
-.publication a {
-    color: #28759c;
-    text-decoration: none;
-}
-
-.publication a:hover {
-    text-decoration: underline;
-}
-
 
 /* =========================
    CONFERENCE TALKS
@@ -277,12 +275,12 @@ p {
 .talk-intro {
     margin: 0 0 20px 0;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 .talk-list {
     margin: 0;
-    padding-left: 25px;
+    padding-left: 30px;
 }
 
 .talk-list li {
