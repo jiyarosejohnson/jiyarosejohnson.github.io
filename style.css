@@ -529,16 +529,3 @@ p {
 }
 
 
-.about-section {
-    grid-template-columns: 1fr;
-    row-gap: 40px;
-}
-
-.about-photo {
-    text-align: left;
-}
-
-.about-photo img {
-    width: 220px;
-    margin: 0;
-}
