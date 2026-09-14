@@ -35,9 +35,7 @@
                 <a href="research.html">Research</a>
                 <a href="teaching.html">Teaching</a>
                 <a href="contact.html">Contact</a>
-                <button class="search-button" onclick="searchSite()" aria-label="Search">
-        &#128269;
-    </button>
+                
             </nav>
 
         </div>
@@ -115,20 +113,7 @@
 
 </section>
 
-      <script>
-function searchSite() {
-    const query = prompt("What would you like to search for?");
 
-    if (query) {
-        const site = "site:jiyarosejohnson.github.io";
-        window.open(
-            "https://www.google.com/search?q=" +
-            encodeURIComponent(site + " " + query),
-            "_blank"
-        );
-    }
-}
-</script>
 
     </main>
 
