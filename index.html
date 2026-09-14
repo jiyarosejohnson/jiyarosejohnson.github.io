@@ -115,7 +115,20 @@
 
 </section>
 
-      
+      <script>
+function searchSite() {
+    const query = prompt("What would you like to search for?");
+
+    if (query) {
+        const site = "site:jiyarosejohnson.github.io";
+        window.open(
+            "https://www.google.com/search?q=" +
+            encodeURIComponent(site + " " + query),
+            "_blank"
+        );
+    }
+}
+</script>
 
     </main>
 
