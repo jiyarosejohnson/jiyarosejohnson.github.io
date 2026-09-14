@@ -1,12 +1,17 @@
+/* =========================
+   HEADER
+   ========================= */
+
 .site-header {
-    border-bottom: 1px solid #ddd;
-    padding: 20px 0;
+    border-bottom: 1px solid #dddddd;
+    background: #ffffff;
+    padding: 22px 0;
 }
 
 .header-container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 25px;
+    width: 100%;
+    margin: 0;
+    padding: 0 35px;
 
     display: flex;
     justify-content: space-between;
@@ -18,19 +23,33 @@
     font-weight: 500;
     color: #28759c;
     text-decoration: none;
+    letter-spacing: 0.3px;
 }
+
+.site-title:hover {
+    color: #1b5878;
+    text-decoration: none;
+}
+
+
+/* =========================
+   NAVIGATION
+   ========================= */
 
 .navigation {
     display: flex;
-    gap: 28px;
+    align-items: center;
+    gap: 30px;
 }
 
 .navigation a {
-    color: #333;
-    text-decoration: none;
+    color: #333333;
     font-size: 16px;
+    text-decoration: none;
+    white-space: nowrap;
 }
 
 .navigation a:hover {
     color: #28759c;
+    text-decoration: none;
 }
