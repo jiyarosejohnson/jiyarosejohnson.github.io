@@ -14,7 +14,7 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #333333;
-    background: #333333;
+    background: #f7f9fc;
     line-height: 1.6;
     font-size: 16px;
 }
@@ -106,6 +106,7 @@ a:hover {
 
 section {
     padding: 65px 0;
+   color: #28759c;
 }
 
 h1,
